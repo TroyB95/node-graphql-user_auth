@@ -1,0 +1,10 @@
+# HTTP endpoint for the Prisma API
+#endpoint: ""
+endpoint: https://eu1.prisma.sh/troy/user-auth/dev
+
+datamodel: datamodel.prisma
+
+# Language and location for generated Prisma client
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
